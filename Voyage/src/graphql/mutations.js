@@ -12,11 +12,6 @@ export const createPost = /* GraphQL */ `
       type
       title
       description
-      bed
-      bedroom
-      maxGuests
-      oldPrice
-      newPrice
       latitude
       longitude
       createdAt
@@ -35,11 +30,6 @@ export const updatePost = /* GraphQL */ `
       type
       title
       description
-      bed
-      bedroom
-      maxGuests
-      oldPrice
-      newPrice
       latitude
       longitude
       createdAt
@@ -58,11 +48,6 @@ export const deletePost = /* GraphQL */ `
       type
       title
       description
-      bed
-      bedroom
-      maxGuests
-      oldPrice
-      newPrice
       latitude
       longitude
       createdAt

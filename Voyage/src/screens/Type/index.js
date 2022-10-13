@@ -57,4 +57,4 @@ const TypeScreen = (props) => {
   );
 };
 
-export default GuestsScreen;
+export default TypeScreen;

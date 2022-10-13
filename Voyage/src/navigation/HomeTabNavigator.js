@@ -47,11 +47,11 @@ const HomeTabNavigator = (props) => {
         }}
       />
       <Tab.Screen
-        name={'Messages'}
+        name={'Host'}
         component={HomeScreen}
         options={{
           tabBarIcon: ({color}) => (
-            <Feather name="message-square" size={25} color={color} />
+            <Entypo name="address" size={25} color={color} />
           ),
         }}
       />

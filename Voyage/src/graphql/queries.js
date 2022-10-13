@@ -9,11 +9,6 @@ export const getPost = /* GraphQL */ `
       type
       title
       description
-      bed
-      bedroom
-      maxGuests
-      oldPrice
-      newPrice
       latitude
       longitude
       createdAt
@@ -34,11 +29,6 @@ export const listPosts = /* GraphQL */ `
         type
         title
         description
-        bed
-        bedroom
-        maxGuests
-        oldPrice
-        newPrice
         latitude
         longitude
         createdAt

@@ -2,7 +2,7 @@ import React from "react";
 import {NavigationContainer} from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import DestinationSearchScreen from "../screens/DestinationSearch";
-import GuestsScreen from "../screens/Guests";
+import TypeScreen from "../screens/Type";
 
 import HomeTabNavigator from "./HomeTabNavigator";
 import PostScreen from "../screens/PostScreen";
@@ -31,7 +31,7 @@ const Router = (props) => {
 
         <Stack.Screen
           name={"Type"}
-          component={GuestsScreen}
+          component={TypeScreen}
           options={{
             title: "your interests?"
           }}
