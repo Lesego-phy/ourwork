@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* VoyageCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VoyageCloneTests.m */; };
+		00E356F31AD99517003FC87E /* VoyageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VoyageTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1D4282D9B9376AB89E6D7647 /* libPods-VoyageClone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF784AA0FBCC94C36A989104 /* libPods-VoyageClone.a */; };
+		1D4282D9B9376AB89E6D7647 /* libPods-Voyage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF784AA0FBCC94C36A989104 /* libPods-Voyage.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* VoyageCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VoyageCloneTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* VoyageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VoyageTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A554297035448916BD10E983 /* libPods-VoyageClone-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 961F853C1DF204ED1F8DAA14 /* libPods-VoyageClone-tvOS.a */; };
-		BEA2776EBF6BC0B339DDD072 /* libPods-VoyageClone-VoyageCloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33858483389019D06296473C /* libPods-VoyageClone-VoyageCloneTests.a */; };
-		CDB5114EB3C6216896259C75 /* libPods-VoyageClone-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F273805AF51EC1E4C93A61 /* libPods-VoyageClone-tvOSTests.a */; };
+		A554297035448916BD10E983 /* libPods-Voyage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 961F853C1DF204ED1F8DAA14 /* libPods-Voyage-tvOS.a */; };
+		BEA2776EBF6BC0B339DDD072 /* libPods-Voyage-VoyageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33858483389019D06296473C /* libPods-Voyage-VoyageTests.a */; };
+		CDB5114EB3C6216896259C75 /* libPods-Voyage-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F273805AF51EC1E4C93A61 /* libPods-Voyage-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = VoyageClone;
+			remoteInfo = Voyage;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "VoyageClone-tvOS";
+			remoteInfo = "Voyage-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* VoyageCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyageCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* VoyageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* VoyageCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoyageCloneTests.m; sourceTree = "<group>"; };
-		07F273805AF51EC1E4C93A61 /* libPods-VoyageClone-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoyageClone-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* VoyageClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoyageClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VoyageClone/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VoyageClone/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VoyageClone/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VoyageClone/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VoyageClone/main.m; sourceTree = "<group>"; };
-		156BD5D3D9BBE8DE94550FBF /* Pods-VoyageClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyageClone.debug.xcconfig"; path = "Target Support Files/Pods-VoyageClone/Pods-VoyageClone.debug.xcconfig"; sourceTree = "<group>"; };
-		2A0A9829C0AD0C2353FCEAFB /* Pods-VoyageClone-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyageClone-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VoyageClone-tvOS/Pods-VoyageClone-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* VoyageClone-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoyageClone-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* VoyageClone-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VoyageClone-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33858483389019D06296473C /* libPods-VoyageClone-VoyageCloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoyageClone-VoyageCloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		579F2C5F4EB7D9E622E8027C /* Pods-VoyageClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyageClone.release.xcconfig"; path = "Target Support Files/Pods-VoyageClone/Pods-VoyageClone.release.xcconfig"; sourceTree = "<group>"; };
-		6F17628B3947293D003E0CDE /* Pods-VoyageClone-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyageClone-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VoyageClone-tvOSTests/Pods-VoyageClone-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VoyageClone/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		961F853C1DF204ED1F8DAA14 /* libPods-VoyageClone-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoyageClone-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		966E9C683DADE461131ECC5F /* Pods-VoyageClone-VoyageCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyageClone-VoyageCloneTests.release.xcconfig"; path = "Target Support Files/Pods-VoyageClone-VoyageCloneTests/Pods-VoyageClone-VoyageCloneTests.release.xcconfig"; sourceTree = "<group>"; };
-		A9303DA14F6FC62F103A8743 /* Pods-VoyageClone-VoyageCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyageClone-VoyageCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-VoyageClone-VoyageCloneTests/Pods-VoyageClone-VoyageCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF784AA0FBCC94C36A989104 /* libPods-VoyageClone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoyageClone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B741938CA922C081D2D9C02A /* Pods-VoyageClone-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyageClone-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VoyageClone-tvOS/Pods-VoyageClone-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		EAA90A6D2CFD15169307A778 /* Pods-VoyageClone-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyageClone-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VoyageClone-tvOSTests/Pods-VoyageClone-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* VoyageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoyageTests.m; sourceTree = "<group>"; };
+		07F273805AF51EC1E4C93A61 /* libPods-Voyage-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voyage-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Voyage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voyage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Voyage/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Voyage/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Voyage/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Voyage/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Voyage/main.m; sourceTree = "<group>"; };
+		156BD5D3D9BBE8DE94550FBF /* Pods-Voyage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyage.debug.xcconfig"; path = "Target Support Files/Pods-Voyage/Pods-Voyage.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0A9829C0AD0C2353FCEAFB /* Pods-Voyage-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyage-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Voyage-tvOS/Pods-Voyage-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Voyage-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voyage-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Voyage-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voyage-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33858483389019D06296473C /* libPods-Voyage-VoyageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voyage-VoyageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579F2C5F4EB7D9E622E8027C /* Pods-Voyage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyage.release.xcconfig"; path = "Target Support Files/Pods-Voyage/Pods-Voyage.release.xcconfig"; sourceTree = "<group>"; };
+		6F17628B3947293D003E0CDE /* Pods-Voyage-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyage-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Voyage-tvOSTests/Pods-Voyage-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Voyage/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		961F853C1DF204ED1F8DAA14 /* libPods-Voyage-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voyage-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		966E9C683DADE461131ECC5F /* Pods-Voyage-VoyageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyage-VoyageTests.release.xcconfig"; path = "Target Support Files/Pods-Voyage-VoyageTests/Pods-Voyage-VoyageTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9303DA14F6FC62F103A8743 /* Pods-Voyage-VoyageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyage-VoyageTests.debug.xcconfig"; path = "Target Support Files/Pods-Voyage-VoyageTests/Pods-Voyage-VoyageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF784AA0FBCC94C36A989104 /* libPods-Voyage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voyage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B741938CA922C081D2D9C02A /* Pods-Voyage-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyage-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Voyage-tvOS/Pods-Voyage-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EAA90A6D2CFD15169307A778 /* Pods-Voyage-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyage-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Voyage-tvOSTests/Pods-Voyage-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA2776EBF6BC0B339DDD072 /* libPods-VoyageClone-VoyageCloneTests.a in Frameworks */,
+				BEA2776EBF6BC0B339DDD072 /* libPods-Voyage-VoyageTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D4282D9B9376AB89E6D7647 /* libPods-VoyageClone.a in Frameworks */,
+				1D4282D9B9376AB89E6D7647 /* libPods-Voyage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A554297035448916BD10E983 /* libPods-VoyageClone-tvOS.a in Frameworks */,
+				A554297035448916BD10E983 /* libPods-Voyage-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB5114EB3C6216896259C75 /* libPods-VoyageClone-tvOSTests.a in Frameworks */,
+				CDB5114EB3C6216896259C75 /* libPods-Voyage-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* VoyageCloneTests */ = {
+		00E356EF1AD99517003FC87E /* VoyageTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* VoyageCloneTests.m */,
+				00E356F21AD99517003FC87E /* VoyageTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = VoyageCloneTests;
+			path = VoyageTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -125,20 +125,20 @@
 		0998775F3E67849593D641A0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				156BD5D3D9BBE8DE94550FBF /* Pods-VoyageClone.debug.xcconfig */,
-				579F2C5F4EB7D9E622E8027C /* Pods-VoyageClone.release.xcconfig */,
-				A9303DA14F6FC62F103A8743 /* Pods-VoyageClone-VoyageCloneTests.debug.xcconfig */,
-				966E9C683DADE461131ECC5F /* Pods-VoyageClone-VoyageCloneTests.release.xcconfig */,
-				B741938CA922C081D2D9C02A /* Pods-VoyageClone-tvOS.debug.xcconfig */,
-				2A0A9829C0AD0C2353FCEAFB /* Pods-VoyageClone-tvOS.release.xcconfig */,
-				EAA90A6D2CFD15169307A778 /* Pods-VoyageClone-tvOSTests.debug.xcconfig */,
-				6F17628B3947293D003E0CDE /* Pods-VoyageClone-tvOSTests.release.xcconfig */,
+				156BD5D3D9BBE8DE94550FBF /* Pods-Voyage.debug.xcconfig */,
+				579F2C5F4EB7D9E622E8027C /* Pods-Voyage.release.xcconfig */,
+				A9303DA14F6FC62F103A8743 /* Pods-Voyage-VoyageTests.debug.xcconfig */,
+				966E9C683DADE461131ECC5F /* Pods-Voyage-VoyageTests.release.xcconfig */,
+				B741938CA922C081D2D9C02A /* Pods-Voyage-tvOS.debug.xcconfig */,
+				2A0A9829C0AD0C2353FCEAFB /* Pods-Voyage-tvOS.release.xcconfig */,
+				EAA90A6D2CFD15169307A778 /* Pods-Voyage-tvOSTests.debug.xcconfig */,
+				6F17628B3947293D003E0CDE /* Pods-Voyage-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* VoyageClone */ = {
+		13B07FAE1A68108700A75B9A /* Voyage */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -149,7 +149,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = VoyageClone;
+			name = Voyage;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -157,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				AF784AA0FBCC94C36A989104 /* libPods-VoyageClone.a */,
-				33858483389019D06296473C /* libPods-VoyageClone-VoyageCloneTests.a */,
-				961F853C1DF204ED1F8DAA14 /* libPods-VoyageClone-tvOS.a */,
-				07F273805AF51EC1E4C93A61 /* libPods-VoyageClone-tvOSTests.a */,
+				AF784AA0FBCC94C36A989104 /* libPods-Voyage.a */,
+				33858483389019D06296473C /* libPods-Voyage-VoyageTests.a */,
+				961F853C1DF204ED1F8DAA14 /* libPods-Voyage-tvOS.a */,
+				07F273805AF51EC1E4C93A61 /* libPods-Voyage-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* VoyageClone */,
+				13B07FAE1A68108700A75B9A /* Voyage */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* VoyageCloneTests */,
+				00E356EF1AD99517003FC87E /* VoyageTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0998775F3E67849593D641A0 /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* VoyageClone.app */,
-				00E356EE1AD99517003FC87E /* VoyageCloneTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* VoyageClone-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* VoyageClone-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Voyage.app */,
+				00E356EE1AD99517003FC87E /* VoyageTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Voyage-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Voyage-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* VoyageCloneTests */ = {
+		00E356ED1AD99517003FC87E /* VoyageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VoyageCloneTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VoyageTests" */;
 			buildPhases = (
 				58E1B1E6E2C4CE19D0A99CCF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = VoyageCloneTests;
-			productName = VoyageCloneTests;
-			productReference = 00E356EE1AD99517003FC87E /* VoyageCloneTests.xctest */;
+			name = VoyageTests;
+			productName = VoyageTests;
+			productReference = 00E356EE1AD99517003FC87E /* VoyageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* VoyageClone */ = {
+		13B07F861A680F5B00A75B9A /* Voyage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VoyageClone" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Voyage" */;
 			buildPhases = (
 				8237594122F5C8EB4745066C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = VoyageClone;
-			productName = VoyageClone;
-			productReference = 13B07F961A680F5B00A75B9A /* VoyageClone.app */;
+			name = Voyage;
+			productName = Voyage;
+			productReference = 13B07F961A680F5B00A75B9A /* Voyage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* VoyageClone-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Voyage-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VoyageClone-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Voyage-tvOS" */;
 			buildPhases = (
 				4AD0DE7644F927A3DDAA43FA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "VoyageClone-tvOS";
-			productName = "VoyageClone-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* VoyageClone-tvOS.app */;
+			name = "Voyage-tvOS";
+			productName = "Voyage-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Voyage-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* VoyageClone-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Voyage-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VoyageClone-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Voyage-tvOSTests" */;
 			buildPhases = (
 				A2CE5EC1A33A17A60814BF6E /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "VoyageClone-tvOSTests";
-			productName = "VoyageClone-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* VoyageClone-tvOSTests.xctest */;
+			name = "Voyage-tvOSTests";
+			productName = "Voyage-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Voyage-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VoyageClone" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Voyage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* VoyageClone */,
-				00E356ED1AD99517003FC87E /* VoyageCloneTests */,
-				2D02E47A1E0B4A5D006451C7 /* VoyageClone-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* VoyageClone-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Voyage */,
+				00E356ED1AD99517003FC87E /* VoyageTests */,
+				2D02E47A1E0B4A5D006451C7 /* Voyage-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Voyage-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoyageClone-VoyageCloneTests/Pods-VoyageClone-VoyageCloneTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Voyage-VoyageTests/Pods-Voyage-VoyageTests-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -440,7 +440,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoyageClone-VoyageCloneTests/Pods-VoyageClone-VoyageCloneTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voyage-VoyageTests/Pods-Voyage-VoyageTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		47276D8DEC263880D10F9AF2 /* [CP] Copy Pods Resources */ = {
@@ -449,7 +449,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoyageClone/Pods-VoyageClone-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Voyage/Pods-Voyage-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -492,7 +492,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoyageClone/Pods-VoyageClone-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voyage/Pods-Voyage-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4AD0DE7644F927A3DDAA43FA /* [CP] Check Pods Manifest.lock */ = {
@@ -510,7 +510,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoyageClone-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Voyage-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -532,7 +532,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoyageClone-VoyageCloneTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Voyage-VoyageTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -554,7 +554,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoyageClone-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Voyage-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -576,7 +576,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoyageClone-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Voyage-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -628,7 +628,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* VoyageCloneTests.m in Sources */,
+				00E356F31AD99517003FC87E /* VoyageTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,7 +654,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* VoyageCloneTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* VoyageTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,12 +663,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* VoyageClone */;
+			target = 13B07F861A680F5B00A75B9A /* Voyage */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* VoyageClone-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Voyage-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -676,14 +676,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9303DA14F6FC62F103A8743 /* Pods-VoyageClone-VoyageCloneTests.debug.xcconfig */;
+			baseConfigurationReference = A9303DA14F6FC62F103A8743 /* Pods-Voyage-VoyageTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = VoyageCloneTests/Info.plist;
+				INFOPLIST_FILE = VoyageTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -693,17 +693,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoyageClone.app/VoyageClone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyage.app/Voyage";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 966E9C683DADE461131ECC5F /* Pods-VoyageClone-VoyageCloneTests.release.xcconfig */;
+			baseConfigurationReference = 966E9C683DADE461131ECC5F /* Pods-Voyage-VoyageTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = VoyageCloneTests/Info.plist;
+				INFOPLIST_FILE = VoyageTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -713,19 +713,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoyageClone.app/VoyageClone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyage.app/Voyage";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 156BD5D3D9BBE8DE94550FBF /* Pods-VoyageClone.debug.xcconfig */;
+			baseConfigurationReference = 156BD5D3D9BBE8DE94550FBF /* Pods-Voyage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = VoyageClone/Info.plist;
+				INFOPLIST_FILE = Voyage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -733,7 +733,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = VoyageClone;
+				PRODUCT_NAME = Voyage;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -742,12 +742,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 579F2C5F4EB7D9E622E8027C /* Pods-VoyageClone.release.xcconfig */;
+			baseConfigurationReference = 579F2C5F4EB7D9E622E8027C /* Pods-Voyage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = VoyageClone/Info.plist;
+				INFOPLIST_FILE = Voyage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -755,7 +755,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = VoyageClone;
+				PRODUCT_NAME = Voyage;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -763,7 +763,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B741938CA922C081D2D9C02A /* Pods-VoyageClone-tvOS.debug.xcconfig */;
+			baseConfigurationReference = B741938CA922C081D2D9C02A /* Pods-Voyage-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -774,14 +774,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "VoyageClone-tvOS/Info.plist";
+				INFOPLIST_FILE = "Voyage-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VoyageClone-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Voyage-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -791,7 +791,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A0A9829C0AD0C2353FCEAFB /* Pods-VoyageClone-tvOS.release.xcconfig */;
+			baseConfigurationReference = 2A0A9829C0AD0C2353FCEAFB /* Pods-Voyage-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -802,14 +802,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "VoyageClone-tvOS/Info.plist";
+				INFOPLIST_FILE = "Voyage-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VoyageClone-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Voyage-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -819,7 +819,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAA90A6D2CFD15169307A778 /* Pods-VoyageClone-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = EAA90A6D2CFD15169307A778 /* Pods-Voyage-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -829,24 +829,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "VoyageClone-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Voyage-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VoyageClone-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Voyage-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoyageClone-tvOS.app/VoyageClone-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyage-tvOS.app/Voyage-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F17628B3947293D003E0CDE /* Pods-VoyageClone-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 6F17628B3947293D003E0CDE /* Pods-Voyage-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -856,17 +856,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "VoyageClone-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Voyage-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VoyageClone-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Voyage-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoyageClone-tvOS.app/VoyageClone-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyage-tvOS.app/Voyage-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -987,7 +987,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VoyageCloneTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VoyageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -996,7 +996,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VoyageClone" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Voyage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1005,7 +1005,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VoyageClone-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Voyage-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1014,7 +1014,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VoyageClone-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Voyage-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1023,7 +1023,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VoyageClone" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Voyage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
