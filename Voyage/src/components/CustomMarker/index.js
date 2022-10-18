@@ -13,7 +13,7 @@ const CustomMarker = (props) => {
         borderColor: "grey",
         borderWidth: 1,
       }}>
-        <Text style={{ color: isSelected ? "white" : "black", fontWeight: "bold" }}>${price}</Text>
+        <Text style={{ color: isSelected ? "white" : "black", fontWeight: "bold" }}>{title}</Text>
       </View>
     </Marker>
   );
