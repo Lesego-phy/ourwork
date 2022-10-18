@@ -3,6 +3,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import ExploreNavigator from './ExploreNavigator';
 import HomeScreen from '../screens/Home';
 import ProfileScreen from '../screens/Profile';
+import HostScreen from '../screens/HostScreen';
 
 import Fontisto from 'react-native-vector-icons/Fontisto';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
@@ -48,7 +49,7 @@ const HomeTabNavigator = (props) => {
       />
       <Tab.Screen
         name={'Host'}
-        component={HomeScreen}
+        component={HostScreen}
         options={{
           tabBarIcon: ({color}) => (
             <Entypo name="address" size={25} color={color} />
