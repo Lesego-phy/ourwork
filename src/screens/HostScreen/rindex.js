@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import {
-  StyleSheet,
   TouchableOpacity,
   SafeAreaView,
   TextInput,
@@ -19,12 +18,24 @@ import { AntDesign } from "@expo/vector-icons";
 import Colors from "../constants/Colors";
 import ProfilePicture from "../components/ProfilePicture";
 import { createEvent } from '../src/graphql/mutations';
+import PlaceRow from './PlaceRow';
+
+
+const homePlace = {
+  description: 'Home',
+  geometry: { location: { lat: 48.8152937, lng: 2.4597668 } },
+};
+const workPlace = {
+  description: 'Work',
+  geometry: { location: { lat: 48.8496818, lng: 2.2940881 } },
+};
 
 export default function NewEventScreen() {
 
   const [eventType, setEventType] = useState("");
   const [event, setEvent] = useState("");
   const [imageUrl, setImageUrl] = useState("");
+  const [originPlace, setOriginPlace] = useState(null);
 
   const navigation = useNavigation();
 
@@ -123,6 +134,31 @@ export default function NewEventScreen() {
           />
         </View>
 
+        <GooglePlacesAutocomplete
+          placeholder="Where are you?"
+          onPress={(data, details = null) => {
+            setOriginPlace({data, details});
+          }}
+          enablePoweredByContainer={false}
+          suppressDefaultStyles
+          currentLocation={true}
+          currentLocationLabel='Current location'
+          styles={{
+            textInput: styles.textInput,
+            container: styles.autocompleteContainer,
+            listView: styles.listView,
+            separator: styles.separator,
+          }}
+          fetchDetails
+          query={{
+            key: 'AIzaSyDFhFUaYpyAjNE4Eq-sWCGWjrr6kyGnhbQ',
+            language: 'en',
+          }}
+          renderRow={(data) => <PlaceRow data={data} />}
+          renderDescription={(data) => data.description || data.vicinity}
+          predefinedPlaces={[homePlace, workPlace]}
+        />
+
 
       <View style={styles.newEventContainer}>
         <ProfilePicture image={'https://scontent.fkiv3-1.fna.fbcdn.net/v/t31.0-8/s960x960/22256588_1932617800312085_5686197942193420542_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=svjjE7DUkc0AX9yjcdC&_nc_ht=scontent.fkiv3-1.fna&tp=7&oh=1df4116c73c45a32ebad070704ca3333&oe=5F6ECD77'}/>
@@ -144,49 +180,3 @@ export default function NewEventScreen() {
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'flex-start',
-    backgroundColor: 'white'
-  },
-  headerContainer: {
-    width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    padding: 15,
-  },
-  button: {
-    backgroundColor: Colors.light.tint,
-    borderRadius: 30,
-  },
-  buttonText: {
-    paddingHorizontal: 20,
-    paddingVertical: 10,
-    color: 'white',
-    fontWeight: 'bold',
-    fontSize: 16
-  },
-  newEventContainer: {
-    flexDirection: 'row',
-    padding: 15,
-  },
-  inputsContainer: {
-    marginLeft: 10,
-  },
-  eventInput: {
-    height: 100,
-    maxHeight: 300,
-    fontSize: 20,
-  },
-  pickImage: {
-    fontSize: 18,
-    color: Colors.light.tint,
-    marginVertical: 10,
-  },
-  image: {
-    width: 150,
-    height: 150,
-  }
-});
