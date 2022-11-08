@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "voyage",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-voyage-voyagedev-215339-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/8d50c662e8bc2b30e14e16a8d3b5d3f80611e805"
+}
