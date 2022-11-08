@@ -1,0 +1,77 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-voyage-voyagedev-215339-authRole",
+      "UnauthRoleArn": "arn:aws:iam::621327612586:role/amplify-voyage-voyagedev-215339-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::621327612586:role/amplify-voyage-voyagedev-215339-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-voyage-voyagedev-215339-deployment",
+      "UnauthRoleName": "amplify-voyage-voyagedev-215339-unauthRole",
+      "StackName": "amplify-voyage-voyagedev-215339",
+      "StackId": "arn:aws:cloudformation:us-east-2:621327612586:stack/amplify-voyage-voyagedev-215339/0c9edcd0-5f9f-11ed-aab7-0a74a0aee8b2",
+      "AmplifyAppId": "dz6t27qn2t9hi",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-voyage-voyagedev-215339-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    }
+  },
+  "function": {
+    "voyagea43129b5a43129b5PostConfirmation": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "auth": {
+    "voyagea43129b5a43129b5": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "voyagea43129b5a43129b5PostConfirmation",
+          "triggerProvider": "Cognito",
+          "attributes": [
+            "Arn",
+            "Name"
+          ]
+        }
+      ],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  },
+  "api": {
+    "voyage": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  }
+}
