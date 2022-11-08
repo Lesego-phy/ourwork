@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-voyage-voyagedev-215339-authRole",
+      "UnauthRoleArn": "arn:aws:iam::621327612586:role/amplify-voyage-voyagedev-215339-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::621327612586:role/amplify-voyage-voyagedev-215339-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-voyage-voyagedev-215339-deployment",
+      "UnauthRoleName": "amplify-voyage-voyagedev-215339-unauthRole",
+      "StackName": "amplify-voyage-voyagedev-215339",
+      "StackId": "arn:aws:cloudformation:us-east-2:621327612586:stack/amplify-voyage-voyagedev-215339/0c9edcd0-5f9f-11ed-aab7-0a74a0aee8b2",
+      "AmplifyAppId": "dz6t27qn2t9hi"
+    }
+  }
+}
